@@ -1,0 +1,50 @@
+.signup-card {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  
+    .mat-card-header {
+      background-color: #2196F3;
+      color: white;
+    }
+  
+    .signup-card__close-button {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+  
+    .mat-card-content {
+      padding: 16px;
+  
+      .signup-card__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        .signup-card__form-field {
+          width: 100%;
+          //margin-top: 10px;
+          margin-bottom: 16px;
+          font-size: 16px;
+  
+          input {
+            font-size: 16px;
+          }
+        }
+  
+        .signup-card__button {
+          margin-top: 20px;
+        }
+      }
+    }
+    .mat-form-field {
+      width: 100%;
+    }
+    .mat-error {
+        color: red;
+        font-size: 14px;
+        margin-top: 18px; 
+      }
+  }
+  
